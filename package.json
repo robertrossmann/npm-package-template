@@ -1,0 +1,41 @@
+{
+  "name": "TODO: npm-package-template",
+  "description": "TODO: npm package template",
+  "version": "0.0.1",
+  "author": {
+    "name": "TODO:",
+    "email": "TODO:"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7",
+    "@babel/core": "^7",
+    "@babel/plugin-proposal-class-properties": "^7",
+    "@babel/plugin-syntax-object-rest-spread": "^7",
+    "@babel/plugin-transform-modules-commonjs": "^7",
+    "@commitlint/cli": "^8",
+    "@semantic-release/changelog": "^3",
+    "@semantic-release/git": "^7",
+    "@strv/commitlint-config": "^1",
+    "@strv/eslint-config-mocha": "^2",
+    "@strv/eslint-config-node": "^2",
+    "@strv/remark-config": "^1",
+    "@types/sinon": "^7",
+    "eslint": "^6",
+    "expect": "^24",
+    "fixpack": "latest",
+    "mocha": "^6",
+    "nyc": "^14",
+    "remark-cli": "^7",
+    "semantic-release": "^15",
+    "sinon": "^7",
+    "source-map-support": "^0"
+  },
+  "engines": {
+    "node": "^12 || ^13"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "main": "src"
+}

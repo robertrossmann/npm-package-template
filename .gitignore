@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+
+# Local configuration
+.env
+.bashrc
+.zshrc
+.npmrc
+local.mk
+
+# Compiled files
+**/*.js
+**/*.js.map
+!*.config.js
+!**/.*.js
+# Fix for Atom bug - the above re-inclusion of .*.js files incorrectly re-adds also any *.test.js
+# files. Git itself does not need this.
+**/*.test.js
+
+# Generated files
+.nvmrc
+coverage
+
+# Garbage
+*.log
+*~
+*#
+.DS_Store
+.nyc_output
+.eslintcache
+
+# IDE stuff
+.netbeans
+nbproject
+.idea
+.node_history
+*.sublime-*
+*.atom-*
+.tern-*
