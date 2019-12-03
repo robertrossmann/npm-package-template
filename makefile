@@ -50,7 +50,7 @@ compile: $(DSTFILES)
 coverage: coverage/lcov.info
 
 recompile: install
-	babel $(SRCGLOB) --out-dir . $(BABEL_FLAGS)
+	babel . --extensions .mjs --out-dir . $(BABEL_FLAGS)
 
 install: node_modules $(GITFILES)
 
