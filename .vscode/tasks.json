@@ -13,6 +13,11 @@
       "group": {
         "kind": "test",
         "isDefault": true
+      },
+      "presentation": {
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
       }
     },
     {
@@ -27,8 +32,10 @@
         "isDefault": true
       },
       "presentation": {
+        "panel": "shared",
         "reveal": "silent",
-        "clear": true
+        "showReuseMessage": false,
+        "clear": true,
       },
     }
   ]
